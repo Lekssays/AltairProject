@@ -2,7 +2,7 @@
 An Open-Source API for Intelligent Drone Driving.
 
 # What is Altair Project?
-It is an API for drone owners. You can set a limitations file ( e.g. limit weather conditions to stop flying) and based on the data that it gets from the API, it can make real-time decision (e.g. stop flying, return back...). It gets the data from flightradar24 for the flight traffic and from apixu for the weather conditions in the flying zone of the drone, and restricted areas (no-fly zones) from the public US governement database.
+It is an API for drone owners. You can set a limitations file ( e.g. limit weather conditions to stop flying) and based on the data that it gets from the API, it can make real-time decision (e.g. stop flying, return back...). It gets the data from flightradar24 for the flight traffic, apixu for the weather conditions in the flying zone of the drone, and restricted areas (no-fly zones) from the public US governement database.
 
 # Requirements :
 1. Raspberry Pi or any device that can execute a ruby script
@@ -25,4 +25,4 @@ You will configure your drone to execute the script in every unit of time (to be
 + Temperature in °C
 + Air pressure in mp
 + e.g. : 
-+ `{"lat"=>"48.7108", "lng"=>"2.2887", "x"=>-2.1765, "y"=>-7.2512, "theta"=>"242", "height"=>"800.1", "speed"=>"0.0", "temperature"=>"7.0", "pressure"=>"1007.0", "WindDir"=>"\"WNW\"", "WindDeg"=>"303", "WindSpeed"=>"0.0", "humidity"=>"70", "cloud"=>"0"}`
+`{"lat"=>"48.7108", "lng"=>"2.2887", "x"=>-2.1765, "y"=>-7.2512, "theta"=>"242", "height"=>"800.1", "speed"=>"0.0", "temperature"=>"7.0", "pressure"=>"1007.0", "WindDir"=>"\"WNW\"", "WindDeg"=>"303", "WindSpeed"=>"0.0", "humidity"=>"70", "cloud"=>"0"}`
