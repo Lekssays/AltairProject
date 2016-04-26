@@ -4,7 +4,7 @@ An Open-Source API for Intelligent Drone Driving.
 # What is Altair Project?
 It is an API for drone owners. You can set a limitations file ( e.g. limit weather conditions to stop flying) and based on the data that it gets from the API, it can make real-time decision (e.g. stop flying, return back...). It gets the data from flightradar24 for the flight traffic, apixu for the weather conditions in the flying zone of the drone, and restricted areas (no-fly zones) from the public US governement database.
 
-# Requirements :
+# Requirements
 1. Raspberry Pi or any device that can execute a ruby script
 2. GPS sensor linked to the drone
 3. Internet access for the drone
