@@ -12,8 +12,8 @@ It is an API for drone owners. You can set a limitations file ( e.g. limit weath
 # How it works?
 It gets Latitude/Longitude from a GPS sensor of the drone. It is prefferable to make a file named Inline `position.in` to store real-time position of the drone. Overrite it in every unit of time (to be set by the drone owner)
 You will configure your drone to execute the script in every unit of time (to be set by the drone owner), and it will get real-time data about its flying zone ( a radius of 5 miles from the drone).
-Execution: `ruby Altair.rb < position.in`
-It generates a JSON file containing a list flights in a raduis of 5 miles. For each flight the API the following:
++ Execution: `ruby Altair.rb < position.in`
++ It generates a JSON file containing a list flights in a raduis of 5 miles. For each flight the API the following:
 + Latitude
 + Longitude
 + Angle Theta (Track in Degrees)
@@ -27,4 +27,5 @@ It generates a JSON file containing a list flights in a raduis of 5 miles. For e
 + e.g. : 
 + `{"lat"=>"48.7108", "lng"=>"2.2887", "x"=>-2.1765, "y"=>-7.2512, "theta"=>"242", "height"=>"800.1", "speed"=>"0.0", "temperature"=>"7.0", "pressure"=>"1007.0", "WindDir"=>"\"WNW\"", "WindDeg"=>"303", "WindSpeed"=>"0.0", "humidity"=>"70", "cloud"=>"0"}`
 + 
+
 # Made with <3 
