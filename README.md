@@ -26,4 +26,3 @@ You will configure your drone to execute the script in every unit of time (to be
 + Air pressure in mp
 + e.g. : 
 + `{"lat"=>"48.7108", "lng"=>"2.2887", "x"=>-2.1765, "y"=>-7.2512, "theta"=>"242", "height"=>"800.1", "speed"=>"0.0", "temperature"=>"7.0", "pressure"=>"1007.0", "WindDir"=>"\"WNW\"", "WindDeg"=>"303", "WindSpeed"=>"0.0", "humidity"=>"70", "cloud"=>"0"}`
-+ 
