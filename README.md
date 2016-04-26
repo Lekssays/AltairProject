@@ -14,7 +14,7 @@ It gets Latitude/Longitude from a GPS sensor of the drone. It is prefferable to 
 You will configure your drone to execute the script in every unit of time (to be set by the drone owner), and it will get real-time data about its flying zone ( a radius of 5 miles from the drone).
 + Execution: `ruby Altair.rb < position.in`
 + It generates a JSON file containing a list flights in a raduis of 5 miles. For each flight the API the following:
-+ Latitude
+++ Latitude
 + Longitude
 + Angle Theta (Track in Degrees)
 + Current speed in km/h
