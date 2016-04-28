@@ -11,7 +11,7 @@ include Math
 inLAT = gets.chomp
 inLNG = gets.chomp
 
-# Flights in a raduis of 5 Miles
+# Flights in a radius of 5 Miles
 LATFinalM = (inLAT.to_f - 0.0727)
 LATFinalP = (inLAT.to_f + 0.0727)
 LNGFinalM = (inLNG.to_f - 0.0727)
