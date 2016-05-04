@@ -1,15 +1,15 @@
 # Altair Project
 An Open-Source API for Intelligent Drone Driving.
 
-# What is Altair Project?
+## What is Altair Project?
 It is an API for drone owners. You can set a limitations file ( e.g. limit weather conditions to stop flying) and based on the data that it gets from the API, it can make real-time decision (e.g. stop flying, return back...). It gets the data from flightradar24 for the flight traffic, apixu for the weather conditions in the flying zone of the drone, and restricted areas (no-fly zones) from the public US governement database.
 
-# Requirements
+## Requirements
 1. Raspberry Pi or any device that can execute a ruby script
 2. GPS sensor linked to the drone
 3. Internet access for the drone
 
-# How it works?
+## How it works?
 It gets Latitude/Longitude from a GPS sensor of the drone. It is prefferable to make a file named Inline `position.in` to store real-time position of the drone. Overrite it in every unit of time (to be set by the drone owner)
 You will configure your drone to execute the script in every unit of time (to be set by the drone owner), and it will get real-time data about its flying zone ( a radius of 5 miles from the drone).
 + Execution: `ruby Altair.rb < position.in`
