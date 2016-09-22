@@ -1,4 +1,9 @@
-# Altair Project
+# Altair Project 
+
+# Winner in Nasa Apps Space Challenge 2016 - Morocco and Global Nominee
+
+## Description:
+
 An Open-Source API for Intelligent Drone Driving.
 
 ## What is Altair Project?
